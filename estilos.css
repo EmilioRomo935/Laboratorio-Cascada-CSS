@@ -1,23 +1,23 @@
 p{
-    color: grey;
+    color: gray;
 }
 
-.mensaje{
+.destacado{
     color: blue;
 }
 
-.importante{
+article p{
     color: green;
 }
 
-article .mensaje{
+#texto{
     color: orange;
 }
 
-#aviso{
-    color: red;
+.contenedor article p{
+    color: purple;
 }
 
-.importante{
-    color: purple !important;
+.destacado{
+    color: red;
 }
