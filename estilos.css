@@ -1,11 +1,23 @@
-.mensaje {
+p{
+    color: grey;
+}
+
+.mensaje{
     color: blue;
 }
 
-.mensaje{
+.importante{
     color: green;
 }
 
-.mensaje{
+article .mensaje{
+    color: orange;
+}
+
+#aviso{
     color: red;
+}
+
+.importante{
+    color: purple !important;
 }
