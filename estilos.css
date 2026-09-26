@@ -1,7 +1,13 @@
-p {
-    color: red ;
+@layer componentes, base;
+
+@layer base{
+    .mensaje {
+        color: blue;
+    }
 }
 
-p {
-    color: blue !important;
+@layer componentes{
+    .mensaje{
+        color:green;
+    }
 }
