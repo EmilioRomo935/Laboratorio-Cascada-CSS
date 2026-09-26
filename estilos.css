@@ -1,7 +1,11 @@
-.mensaje{
+.mensaje {
+    color: blue;
+}
+
+article .mensaje{
     color: green;
 }
 
-p {
-    color: blue;
+main article .mensaje{
+    color: red;
 }
